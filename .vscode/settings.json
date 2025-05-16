@@ -1,0 +1,14 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.compile.nullAnalysis.mode": "automatic",
+    // 自動保存
+    "files.autoSave": "afterDelay",
+    // フォーマッタ設定
+    "editor.formatOnSave": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    // Markdown Preview Enhanced設定
+    "markdown-preview-enhanced.plantumlJarPath": "/usr/local/bin/plantuml.jar",
+    "git.ignoreLimitWarning": true
+}

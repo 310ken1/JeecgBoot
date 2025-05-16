@@ -1,0 +1,30 @@
+{
+	"name": "Java開発環境",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "environment",
+	"mounts": [
+		"source=${localWorkspaceFolder},target=/workspace,type=cached",
+		"source=node_modules_vol,target=/workspace/jeecgboot-vue3/node_modules,type=volume"
+	],
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"redhat.java",
+				"vscjava.vscode-gradle",
+				"vscjava.vscode-java-pack",
+				"vscjava.vscode-java-debug",
+				"vscjava.vscode-java-test",
+				"vscjava.vscode-java-dependency",
+				"usernamehw.errorlens",
+				"streetsidesoftware.code-spell-checker",
+				"hediet.vscode-drawio",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"VisualStudioExptTeam.intellicode-api-usage-examples",
+				"VisualStudioExptTeam.vscodeintellicode-completions",
+				"shd101wyy.markdown-preview-enhanced"
+			]
+		}
+	},
+	"postCreateCommand": "/bin/bash .devcontainer/postCreateCommand.sh"
+}
