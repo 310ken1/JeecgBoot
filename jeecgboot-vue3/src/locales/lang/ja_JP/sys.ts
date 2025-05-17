@@ -1,0 +1,115 @@
+export default {
+  api: {
+    operationFailed: '操作に失敗しました',
+    errorTip: 'エラーメッセージ',
+    errorMessage: '操作に失敗しました。システムエラーです！',
+    timeoutMessage: 'ログインの有効期限が切れました。再度ログインしてください！',
+    apiTimeoutMessage: 'APIリクエストがタイムアウトしました。ページを更新して再試行してください！',
+    apiRequestFailed: 'リクエストエラー。しばらくしてから再試行してください',
+    networkException: 'ネットワーク異常',
+    networkExceptionMsg: 'ネットワークに異常があります。接続状況をご確認ください！',
+
+    errMsg401: 'ユーザーに権限がありません（トークン、ユーザー名、またはパスワードが間違っています）！',
+    errMsg403: '認証されていますが、アクセスは拒否されました！',
+    errMsg404: 'リクエストエラー：リソースが見つかりません！',
+    errMsg405: 'リクエストエラー：許可されていないメソッドです！',
+    errMsg408: 'リクエストタイムアウト！',
+    errMsg500: 'サーバーエラー。管理者に連絡してください！',
+    errMsg501: '機能未実装！',
+    errMsg502: 'ネットワークエラー！',
+    errMsg503: 'サービス利用不可。サーバーが過負荷またはメンテナンス中です！',
+    errMsg504: 'ネットワークタイムアウト！',
+    errMsg505: 'HTTPバージョンがリクエストに対応していません！',
+
+    registerMsg: '登録に成功しました',
+  },
+  app: {
+    logoutTip: 'ご確認',
+    logoutMessage: 'システムからログアウトしてもよろしいですか？',
+    menuLoading: 'メニューを読み込み中...',
+  },
+  errorLog: {
+    tableTitle: 'エラーログ一覧',
+    tableColumnType: 'タイプ',
+    tableColumnDate: '発生日時',
+    tableColumnFile: 'ファイル',
+    tableColumnMsg: 'エラーメッセージ',
+    tableColumnStackMsg: 'スタック情報',
+
+    tableActionDesc: '詳細',
+
+    modalTitle: 'エラー詳細',
+
+    fireVueError: 'クリックで Vue エラーを発生',
+    fireResourceError: 'クリックでリソースエラーを発生',
+    fireAjaxError: 'クリックで Ajax エラーを発生',
+
+    enableMessage: '`/src/settings/projectSetting.ts` の useErrorHandle=true の場合に有効になります。',
+  },
+  exception: {
+    backLogin: 'ログインに戻る',
+    backHome: 'ホームに戻る',
+    subTitle403: '申し訳ありませんが、このページにアクセスする権限がありません。',
+    subTitle404: '申し訳ありませんが、お探しのページは存在しません。',
+    subTitle500: '申し訳ありませんが、サーバーでエラーが発生しました。',
+    noDataTitle: 'データがありません',
+    networkErrorTitle: 'ネットワークエラー',
+    networkErrorSubTitle: '申し訳ありません。ネットワーク接続が切断されました。接続をご確認ください！',
+  },
+  lock: {
+    unlock: 'クリックしてロック解除',
+    alert: 'ロック解除用のパスワードが間違っています',
+    backToLogin: 'ログインに戻る',
+    entry: 'システムに入る',
+    placeholder: 'ロック画面パスワード',
+  },
+  login: {
+    backSignIn: '戻る',
+    signInFormTitle: 'ログイン',
+    mobileSignInFormTitle: '携帯ログイン',
+    qrSignInFormTitle: 'QRコードログイン',
+    signUpFormTitle: '新規登録',
+    forgetFormTitle: 'パスワードリセット',
+
+    signInTitle: 'Jeecg Boot',
+    signInDesc: '中国で最も影響力のある企業向けローコードプラットフォーム！オンライン開発、視覚的ドラッグ＆ドロップ、コーディング不要で80%の機能を実現！',
+    policy: 'QiaoQiao Cloud プライバシーポリシーに同意します',
+    scanSign: 'QRコードをスキャンするとログインできます',
+    scanSuccess: 'スキャン成功、ログイン中...',
+
+    loginButton: 'ログイン',
+    registerButton: '登録',
+    rememberMe: 'ログイン状態を保持',
+    forgetPassword: 'パスワードを忘れた？',
+    otherSignIn: '他のログイン方法',
+
+    loginSuccessTitle: 'ログイン成功',
+    loginSuccessDesc: 'お帰りなさい',
+
+    accountPlaceholder: 'アカウントを入力してください',
+    passwordPlaceholder: 'パスワードを入力してください',
+    inputCodePlaceholder: '認証コードを入力してください',
+    smsPlaceholder: 'SMSコードを入力してください',
+    mobilePlaceholder: '携帯番号を入力してください',
+    mobileCorrectPlaceholder: '正しい携帯番号を入力してください',
+    policyPlaceholder: 'チェックを入れてから登録可能です',
+    diffPwd: 'パスワードが一致しません',
+
+    userName: 'アカウント',
+    password: 'パスワード',
+    inputCode: '認証コード',
+    confirmPassword: 'パスワード（確認）',
+    email: 'メールアドレス',
+    smsCode: 'SMS認証コード',
+    mobile: '携帯番号',
+
+    subTitleText: '{0}秒後にログインページへ戻ります',
+
+    // パスワードリセットページ
+    authentication: '本人確認',
+    resetLoginPassword: 'ログインパスワードのリセット',
+    resetSuccess: 'リセット成功',
+    nextStep: '次へ',
+    goToLogin: 'ログインへ戻る',
+  },
+};
